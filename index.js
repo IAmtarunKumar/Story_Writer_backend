@@ -20,14 +20,15 @@ app.post('/text', async (req, res) => {
             strictly follow the given bullet points
             - formate is charector name with their dailogs for example "chareter- this is my dailog"
             - story is angazeing.
-            - minmume work is 300
-            - end of the story with good messages
-            - the story topic is ${text}
+            - minmume work is 300.
+            - end of the story with good messages.
+            - the story topic is ${text}.
             - the story write in ${lang} language properly.
-            - give me output in html div tag print each dailog in next line
+            - give me output in html div tag print each dailog in next line.
+            - max_tokens use 4000  maximum.
             `,
          
-            max_tokens: 1000,
+            max_tokens: 4000,
             temperature: 0.7,
             n: 1
         }, {
