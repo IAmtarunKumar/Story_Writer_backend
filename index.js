@@ -25,10 +25,10 @@ app.post('/text', async (req, res) => {
             - the story topic is ${text}.
             - the story write in ${lang} language properly.
             - give me output in html div tag print each dailog in next line.
-            - max_tokens use 4000  maximum.
+            - max_tokens use  maximum 3000.
             `,
          
-            max_tokens: 4000,
+            max_tokens: 3000,
             temperature: 0.7,
             n: 1
         }, {
